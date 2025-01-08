@@ -1,0 +1,188 @@
+.body {
+    background-color: rgb(26, 131, 2);
+    font-family: Impact;
+}
+
+header {
+    background-color: #ff9922;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: background-color 1s;
+    justify-content: space-between;
+    height: 55px;
+    font-family: Impact;
+}
+
+h1{
+    font-size: 25px;
+    padding-left: 100px;
+    position: absolute;
+    top: 20px;
+    font-weight: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+    
+}
+
+a{
+    text-decoration: none;
+    font-family:Impact;
+    font-weight: semi-bold;
+    color:rgb(0, 0, 0);
+    transition: color 1s;
+}
+
+#GOKU_STAND{
+    transition: 0.3s;
+    
+    
+}
+
+#GOKU_STAND:hover{
+    transform: scale(1.1);
+}
+
+#gk:hover{
+    color: #ccc1b7;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+#VEGETA_STAND{
+    transition: 0.3s;
+    width: auto;
+    padding-left: 40px;
+}
+
+#VEGETA_STAND:hover{
+    transform: scale(1.1);
+}
+
+#vg:hover{
+    color: rgb(255, 0, 255);
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+#KRILLIN_STAND{
+    transition: 0.3s;
+    align-items: center;
+}
+
+#KRILLIN_STAND:hover{
+    transform: scale(1.1);
+}
+
+#kr:hover{
+    color:#ff7b00;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+#GOHAN_STAND{
+    transition: 0.3s;
+    width: auto;
+    
+}
+
+#GOHAN_STAND:hover{
+    transform: scale(1.1);
+}
+
+#gh:hover{
+    color:#ff0000;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+#PICCOLO_STAND{
+    transition: 0.3s;
+    width: auto;
+}
+
+#PICCOLO_STAND:hover{
+    transform: scale(1.1);
+}
+
+#pc:hover{
+    color:#95ff4a;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+
+header .logoz img{
+    height: 50px;
+    margin-left: 20px;
+    margin-top: -2px;
+}
+
+
+.e1{
+    align-items: right;
+    font-size: 20px;
+    color: black;
+    transition: color 1s;
+
+}
+
+.e1:hover{
+    color:aliceblue
+
+}
+
+.grid img{
+width: 20%;
+height: 20%;
+display: flex;
+height: 300px;
+width: 200px;
+padding: 30px;
+margin-left: 20px;
+}
+
+.grid{
+    font-size: 15px;
+    padding-left: 10px;
+    display: flex;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-image: url(HT-DB.jpg);
+    background-size: cover; 
+}
+
+#logo{
+    color: black;
+    background-color: #ff9922;
+    height: 150px;
+    text-align: center;
+}
+
+#logo img{
+    height: 75px;
+    width: 75px;
+    padding-top: 20px;
+   
+}
+
+#tlogo{
+    font-size: 18px;
+    padding-left: 15px;
+    font-family: Impact;
+}
+
+#audio3{
+    position: absolute;
+    left: 550px;
+    bottom:-60px;
+}

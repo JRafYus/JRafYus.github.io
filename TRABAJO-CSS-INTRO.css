@@ -1,0 +1,133 @@
+body{
+    background-image: url(MONTE_PAOUZ.jpg);
+    background-size: cover;
+}
+
+header {
+    padding: 20px 20px 20px 530px;
+    display: flex;
+    align-items: center;
+    transition: background-color 1s;
+    justify-content: space-between;
+    height: 55px;
+    font-family: Impact;
+    width: 250px;
+    margin-left: 400px;
+    padding-left: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-decoration: none;
+    text-align: right;
+}
+
+h1{
+    font-size: 25px;
+    padding-left: 100px;
+    position: absolute;
+    top: 20px;
+    font-weight: none;
+}
+
+#audio2{
+    position: relative;
+    left: 950px;
+    top: 620px;
+}
+
+#caja{
+    font-family: Tahoma;
+    font-size: 13px;
+    text-align: justify;
+    background: #ffd09a;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 3px solid #ff9922;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+    margin-left: 410px;
+    margin-right: 450px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    position: relative;
+    right: 400px;
+    bottom: 253px;
+    }
+
+
+
+.mayus{
+    font-size: 200%;
+    font-weight: bold;
+    transition: background-color 0.8s
+}
+
+span:hover{
+    background-color: #ffdd00;
+    
+}
+
+
+#enlace{
+    color: black;
+    text-decoration: none;
+    transition: background-color 1s;
+    position:absolute;
+    left: 500px;
+    border-radius: 5px;
+    font-family: Impact;
+    font-size: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+#enlace:hover{
+    background-color: white;
+    
+}
+
+logo{
+    color: rgb(23, 158, 210,0.4);
+    background-color: rgb(23, 158, 210,0.2);
+    height: 150px;
+    text-align: center;
+}
+
+#logo img{
+    height: 75px;
+    width: 75px;
+    padding-top: 20px;
+    padding-left: 630px;
+   
+}
+
+#tlogo{
+    background-color: rgb(23, 158, 210,0.2);
+    font-size: 18px;
+    padding-left: 15px;
+    font-family: Impact;
+    color:black;
+    text-align: center;
+}
+
+.e1{
+    align-items: right;
+    font-size: 20px;
+    color: black;
+    transition: background-color 1s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.e1:hover{
+    background-color:aliceblue;
+}
+

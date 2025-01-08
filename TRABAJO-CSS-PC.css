@@ -1,0 +1,319 @@
+body{
+    background-image: url(NAMEK.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+    }
+    
+    header {
+        background-color: rgb(47, 238, 30);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 55px;
+        font-family: Impact;
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        height: 60px;
+    }
+    
+    header .logoz img{
+        height: 50px;
+        margin-left: 20px;
+        margin-top: -2px;
+    }
+    
+    header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    h1{
+        position: absolute;
+        align-items: center;
+        left:620px;
+        top:-10px;
+    }
+    
+    h2{
+        align-items: center;
+        position: absolute;
+        left:510px;
+        top:35px;
+    }
+
+    h3{
+        font-size: 15px;
+
+    }
+    
+    .e1{
+        text-decoration: none;
+        color:black;
+        transition: color 1s;
+    }
+    
+    .e1:hover{
+        color: aliceblue;
+        border-radius: 5px;
+    }
+    
+    #gkimg{
+        position: absolute;
+        left: 280px;
+        top: 100px;
+        z-index: 2;
+        scale: 0.75;
+    }
+    
+    #textogk{
+        font-family: Tahoma;
+        font-size: 13px;
+        text-align: justify;
+        background: #95f389;
+        border-radius: 35px 0px 35px 0px;
+        -moz-border-radius: 35px 0px 35px 0px;
+        -webkit-border-radius: 35px 0px 35px 0px;
+        border: 3px solid #009600;
+        padding-left: 100px;
+        padding-right: 45px;
+        padding-top: 10px;
+        padding-bottom: 150px;
+        position: absolute;
+        margin-left: 420px;
+        margin-right: 350px;
+        margin-top: 90px;
+        overflow-y: scroll;
+        width: 400px;
+        height:170px;
+        overflow-x: hidden;
+        }
+        
+        .h3{
+            text-align: center;
+            font-family: Impact; 
+            width: 500px;
+            font-size:20px;
+        }
+    
+    .gridss{
+        scroll-behavior: auto;
+        list-style: none;
+        font: 10px;
+    }
+    
+    .gridss a{
+        color:black;
+        text-decoration:none;
+        font-family: Impact;
+        scale: 0.9;
+        transition: color 1s;
+    
+    }
+    
+    .gridss img{
+        scale: 0.6;
+    }
+    
+    
+    #logo img{
+        height: 75px;
+        width: 75px;
+        padding-left: 630px;
+        position: relative;
+    }
+    
+    #tlogo{
+        background-color: rgb(195, 255, 195);
+        font-size: 20px;
+        padding-left: 15px;
+        font-family: Impact;
+        color:black;
+        position: relative;
+        top: 430px;
+        height: 35px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: -10px;
+        margin-right: -10px ;
+    }
+    
+    #vg{
+        color: rgb(255,0,255);
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Tahoma;
+    }
+    
+    #gh{
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+      
+    .gridss a:hover{
+        color:rgb(171, 179, 188);
+        
+    }
+    
+    #SS{
+        color: rgb(0, 0, 0);
+        transition: color 1s;
+    }
+    
+    #SS:hover{
+        color: rgb(168, 166, 27);
+        
+    }
+    
+    #SS1{
+        padding-left: 70px;
+    }
+    
+    
+    #SS3{
+        padding-left: 70px;
+    }
+    
+  
+    
+    #SZLOGO{
+        padding-left: 35px;
+    }
+    
+    h4{
+        font-family: Impact;
+        font-size: 20px;
+        padding-left: 65px;
+        margin-top: -30px;
+        margin-bottom: -20px;
+        
+        
+    }
+    
+    #STATS{
+        scale: 0.8;
+        margin-left: -105px;
+    }
+    
+    #Imp{
+        font-family: Impact;
+    }
+
+    #sgk{
+        color: #fbff00;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Tahoma;
+    }
+
+#gte{
+    font-family: Impact;
+    font-size: 20px;
+}
+
+#oge{
+    font-family: Impact;
+    font-size: 20px;
+}
+
+.button {
+    font-family: Impact;
+    margin-left: 0px;
+    margin-top: 50px;
+    --main-color: rgb(0, 128, 6);
+    --main-bg-color: rgba(21, 92, 7, 0.36);
+    --pattern-color: rgba(15, 65, 13, 0.073);
+  
+    
+    filter: hue-rotate(0deg);
+  
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    background: radial-gradient(
+        circle,
+        var(--main-bg-color) 0%,
+        rgba(0, 0, 0, 0) 95%
+      ),
+      linear-gradient(var(--pattern-color) 1px, transparent 1px),
+      linear-gradient(to right, var(--pattern-color) 1px, transparent 1px);
+    background-size:
+      cover,
+      15px 15px,
+      15px 15px;
+    background-position:
+      center center,
+      center center,
+      center center;
+    border-image: radial-gradient(
+        circle,
+        var(--main-color) 0%,
+        rgba(0, 0, 0, 0) 100%
+      )
+      1;
+    border-width: 1px 0 1px 0;
+    color: var(--main-color);
+    padding: 1rem 3rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    transition: background-size 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-size:
+      cover,
+      10px 10px,
+      10px 10px;
+  }
+  .button:active {
+    filter: hue-rotate(250deg);
+  }
+
+  #atras{
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    
+   }
+   
+   #atras > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+   }
+   
+   #atras:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   #atras:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+  }
+
+  #back{
+    text-decoration: none;
+    position: relative;
+    left: 130px;
+    top:30px;
+  }
+  

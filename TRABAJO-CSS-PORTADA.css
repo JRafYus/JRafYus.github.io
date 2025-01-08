@@ -1,0 +1,112 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background: url(OP-DB.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.wrap-texto{
+    color:#ff9922;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    font-family: Impact;
+    font-size: 170%;
+    top: 105px;
+    
+   
+   
+}
+
+a{
+    font-size: 100%;
+    color:#b9a485;
+    font-family: Impact;
+    transition: background-color 0.5s;
+    text-decoration:none;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+}
+
+a:hover{
+    background-color: #ffdd00;
+}
+
+#link-1{ 
+    position:relative;
+    top: -260px;
+    font-size: 300%;
+}
+
+#audio{
+    position: relative;
+    left: 330px;
+    top: -140px;
+}
+
+#texto-logo{
+    position: relative;
+    left: 510px;
+    top: -350px;
+    font-size: 20px;
+}
+
+#logo{
+    position: relative;
+    left: 500px;
+    top: -350px;
+    height: 50px;
+    width: 50px;
+}
+
+#texto1{
+    position:relative;
+    right:530px;
+    top: -470px;
+    font-size: 20px;
+}
+
+#texto2{
+    position:relative;
+    right:590px;
+    top: -475px;
+    font-size: 20px;
+}   
+
+#nav{
+    background-color:rgb(80, 177, 58,0.1);
+    font-size: 20px;
+    position: absolute;
+    left: 600px;
+    bottom: 540px;
+    border: 15px solid rgb(80, 177, 58,0.1);
+    border-radius:10px;
+    
+    
+}
+
+.link-info{
+    color: black;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: white;
+    transition: background-color 0.8s;
+}
+
+.link-info:hover{
+    background-color: rgb(255, 3, 3);
+    border-radius: 5px;
+    
+    
+}

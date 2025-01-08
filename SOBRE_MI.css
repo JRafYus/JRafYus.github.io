@@ -1,0 +1,134 @@
+
+.book {
+    position: relative;
+    border-radius: 10px;
+    width: 680px;
+    height: 400px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    -webkit-transform: preserve-3d;
+    -ms-transform: preserve-3d;
+    transform: preserve-3d;
+    -webkit-perspective: 2000px;
+    perspective: 2000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #000;
+    font-family: Helvetica;
+    left: 330px;
+    top:100px;
+  }
+  
+  .cover {
+    top: 0;
+    position: absolute;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 0;
+    -ms-transform-origin: 0;
+    transform-origin: 0;
+    -webkit-box-shadow: 1px 1px 12px #000;
+    box-shadow: 1px 1px 12px #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: Helvetica;
+  }
+  
+  .book:hover .cover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: rotatey(-80deg);
+    -ms-transform: rotatey(-80deg);
+    transform: rotatey(-80deg);
+  }
+  
+  p {
+    font-size: 15px;
+  }
+
+  .Hola{
+    font-size: 40px;
+    font-family: Helvetica;
+    font-weight: bolder;
+  }
+
+  #foto{
+    scale: 0.5;
+    margin-left: -90px;
+  }
+
+  #texto{
+    font-size: 15px;
+    font-family: Helvetica;
+    padding-right: 200px;
+    font-weight: bold;
+    width: 600px;
+    text-align: justify;
+    margin-right: -90px;
+    margin-left:-90px;
+  }
+
+  #img-logo{
+    position: relative;
+    left: 415px;
+    scale: 0.4;
+    top:200px;
+    padding-bottom: 110px;
+
+}
+
+#e1{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-weight: bold;
+    color:rgb(255, 255, 255)
+       
+}
+
+.button {
+    --bg: #000000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+    left: 615px;
+    bottom: 170px;
+    position: relative;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }

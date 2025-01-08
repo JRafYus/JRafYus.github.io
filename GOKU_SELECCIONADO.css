@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(#f28530,#8b411b);
+    background-size: cover;
+    
+    
+
+    #bg{
+        text-align: center;
+        margin-bottom:300px;
+        padding-top: 50px;
+    }
+
+    nav ul{
+        transform: rotate(-17deg);
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .e1{
+        text-decoration: none;
+        color: #f28530;
+        -webkit-text-stroke: 0.65px black;
+        font-family: Impact;
+        position: relative;
+        left: 550px;
+        bottom: 100px;
+        font-size: 25px;
+    }
+        
+}
